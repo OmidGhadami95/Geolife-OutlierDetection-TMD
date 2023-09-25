@@ -9,9 +9,9 @@ First, we must detect outliers and then remove all of them. Finally, all records
 
 # Notice:
 
-Use IQR or z-score not both  
-Tune z-score hyperparameter (threshold)  
-This part must perform before calculating aggregated features
+1- Use IQR or z-score not both  
+2- Tune z-score hyperparameter (threshold)  
+3- This part must perform before calculating aggregated features
 
 
  Raw Geolife dataset link : https://download.microsoft.com/download/F/4/8/F4894AA5-FDBC-481E-9285-D5F8C4C4F039/Geolife%20Trajectories%201.3.zip
