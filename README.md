@@ -2,7 +2,7 @@
 Outlier detection using IQR and Z-score, and also visualization on Geolife dataset for transport mode detection task.  
 A comprehensive analysis on Geolife dataset trajectories.  
 
-![Image](https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-twotoone-UNYDv4hcYe4N.jpg)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/nm2hwHL/imgonline-com-ua-twotoone-UNYDv4hc-Ye4-N.jpg" alt="imgonline-com-ua-twotoone-UNYDv4hc-Ye4-N" border="0" /></a>
 
   After loading and preprocessing the Geolife dataset, we have many CSVs, which include distance, velocity, acceleration, and ... as features (columns). The point is that some records are abnormal. For example, we have some records with more than 100 km/h velocity in the 'walk' label! Hence, it's crucial to remove these incorrect and noisy records. Otherwise, our network will train with inaccurate data, leading to lower accuracy. Moreover, Visualizing data before and after outlier detection is crucial for gaining insights into analyzing the effect of outlier detection. In this code, z-score and IQR have been used for outlier-detection  
 First, we must detect outliers and then remove all of them. Finally, all records after removing outliers must be merged.
